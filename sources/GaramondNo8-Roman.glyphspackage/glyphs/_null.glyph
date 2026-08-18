@@ -1,0 +1,18 @@
+{
+glyphname = .null;
+layers = (
+{
+layerId = vfbMaster0;
+width = 0;
+},
+{
+layerId = "92B07C3A-B7F1-4A1E-8DFA-CE7C0631404C";
+width = 0;
+},
+{
+layerId = "E217EEC1-5447-4F1C-8AA8-61EA395952DD";
+width = 0;
+}
+);
+unicode = 0;
+}

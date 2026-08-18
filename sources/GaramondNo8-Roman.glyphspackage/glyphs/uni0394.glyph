@@ -1,0 +1,37 @@
+{
+color = (128,255,149,255);
+glyphname = uni0394;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+ref = Delta;
+}
+);
+vertWidth = 476;
+width = 667;
+},
+{
+layerId = "92B07C3A-B7F1-4A1E-8DFA-CE7C0631404C";
+shapes = (
+{
+ref = Delta;
+}
+);
+vertWidth = 476;
+width = 667;
+},
+{
+layerId = "E217EEC1-5447-4F1C-8AA8-61EA395952DD";
+shapes = (
+{
+ref = Delta;
+}
+);
+vertWidth = 476;
+width = 667;
+}
+);
+unicode = 916;
+}

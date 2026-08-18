@@ -1,0 +1,36 @@
+{
+color = (128,255,149,255);
+glyphname = f_l;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+ref = fl;
+}
+);
+vertWidth = 476;
+width = 537;
+},
+{
+layerId = "F2C444DF-EC09-4300-B415-ACBA068C3421";
+shapes = (
+{
+ref = fl;
+}
+);
+vertWidth = 476;
+width = 556;
+},
+{
+layerId = "48771146-0F49-4B12-8958-7B6EF2F568DE";
+shapes = (
+{
+ref = fl;
+}
+);
+vertWidth = 476;
+width = 537;
+}
+);
+}

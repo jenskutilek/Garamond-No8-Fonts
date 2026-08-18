@@ -1,0 +1,18 @@
+{
+glyphname = CR;
+layers = (
+{
+layerId = vfbMaster0;
+width = 0;
+},
+{
+layerId = "F2C444DF-EC09-4300-B415-ACBA068C3421";
+width = 0;
+},
+{
+layerId = "48771146-0F49-4B12-8958-7B6EF2F568DE";
+width = 0;
+}
+);
+unicode = 13;
+}

@@ -1,0 +1,22 @@
+{
+color = (128,255,149,255);
+glyphname = uni2219;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+pos = (157,-114);
+ref = bullet;
+}
+);
+vertWidth = 362;
+width = 812;
+},
+{
+layerId = "92B07C3A-B7F1-4A1E-8DFA-CE7C0631404C";
+width = 600;
+}
+);
+unicode = 8729;
+}

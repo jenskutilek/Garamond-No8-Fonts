@@ -1,0 +1,145 @@
+{
+glyphname = Delta;
+layers = (
+{
+background = {
+guides = (
+{
+angle = 90;
+name = com.lucasfonts.vfblib.maskMetrics;
+pos = (667,0);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(366,680,l),
+(18,0,l),
+(645,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(329,524,l),
+(500,94,l),
+(110,94,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(367,696,l),
+(7,-7,l),
+(655,-7,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(328,507,l),
+(489,101,l),
+(121,101,l)
+);
+}
+);
+};
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(367,696,l),
+(7,-7,l),
+(655,-7,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(328,507,l),
+(489,101,l),
+(121,101,l)
+);
+}
+);
+vertWidth = 976;
+width = 667;
+},
+{
+layerId = "F2C444DF-EC09-4300-B415-ACBA068C3421";
+shapes = (
+{
+closed = 1;
+nodes = (
+(19,0,l),
+(650,0,l),
+(360,685,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(138,127,l),
+(312,477,l),
+(448,127,l)
+);
+}
+);
+vertWidth = 965;
+width = 667;
+},
+{
+background = {
+guides = (
+{
+angle = 90;
+name = com.lucasfonts.vfblib.maskMetrics;
+pos = (100,0);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(366,680,l),
+(18,0,l),
+(645,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(329,524,l),
+(500,94,l),
+(110,94,l)
+);
+}
+);
+};
+layerId = "48771146-0F49-4B12-8958-7B6EF2F568DE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(366,680,l),
+(18,0,l),
+(645,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(329,524,l),
+(500,94,l),
+(110,94,l)
+);
+}
+);
+vertWidth = 960;
+width = 667;
+}
+);
+unicode = 8710;
+}
