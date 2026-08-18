@@ -1,0 +1,17 @@
+{
+color = (128,255,149,255);
+glyphname = uni03BC;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+ref = mu;
+}
+);
+vertWidth = 476;
+width = 553;
+}
+);
+unicode = 956;
+}

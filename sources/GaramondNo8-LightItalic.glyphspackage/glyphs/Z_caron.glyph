@@ -1,0 +1,21 @@
+{
+color = (128,255,149,255);
+glyphname = Zcaron;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+ref = Z;
+},
+{
+pos = (626,0);
+ref = uni030C.case;
+}
+);
+vertWidth = 476;
+width = 627;
+}
+);
+unicode = 381;
+}

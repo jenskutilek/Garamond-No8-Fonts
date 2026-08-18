@@ -1,0 +1,21 @@
+{
+color = (128,255,149,255);
+glyphname = icircumflex;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+ref = dotlessi;
+},
+{
+pos = (377,0);
+ref = uni0302;
+}
+);
+vertWidth = 476;
+width = 295;
+}
+);
+unicode = 238;
+}

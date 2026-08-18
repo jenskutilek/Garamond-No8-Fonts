@@ -1,0 +1,56 @@
+{
+glyphname = radical;
+layers = (
+{
+background = {
+guides = (
+{
+angle = 90;
+name = com.lucasfonts.vfblib.maskMetrics;
+pos = (722,0);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(-87,215,l),
+(-67,185,l),
+(10,237,l),
+(290,-172,l),
+(309,-172,l),
+(584,723,l),
+(730,723,l),
+(730,752,l),
+(555,752,l),
+(305,-63,l),
+(51,309,l)
+);
+}
+);
+};
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-87,215,l),
+(-67,185,l),
+(10,237,l),
+(290,-172,l),
+(309,-172,l),
+(584,723,l),
+(730,723,l),
+(730,752,l),
+(555,752,l),
+(305,-63,l),
+(51,309,l)
+);
+}
+);
+vertWidth = 1032;
+width = 722;
+}
+);
+unicode = 8730;
+}

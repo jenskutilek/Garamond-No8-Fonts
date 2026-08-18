@@ -1,0 +1,68 @@
+{
+glyphname = breve;
+layers = (
+{
+background = {
+guides = (
+{
+angle = 90;
+name = com.lucasfonts.vfblib.maskMetrics;
+pos = (-8447,0);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(115,675,l),
+(124,590,o),
+(168,544,o),
+(240,544,cs),
+(312,544,o),
+(356,590,o),
+(365,675,c),
+(323,675,l),
+(314,625,o),
+(282,593,o),
+(241,593,cs),
+(198,593,o),
+(167,624,o),
+(156,675,c)
+);
+}
+);
+};
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(107,682,l),
+(117,588,o),
+(163,537,o),
+(240,537,cs),
+(317,537,o),
+(363,588,o),
+(373,682,c),
+(317,682,l),
+(308,632,o),
+(278,600,o),
+(241,600,cs),
+(202,600,o),
+(173,631,o),
+(162,682,c)
+);
+}
+);
+vertWidth = 962;
+width = 480;
+}
+);
+unicode = 728;
+userData = {
+com.lucasfonts.vfblib.origin = (
+-1,
+0
+);
+};
+}

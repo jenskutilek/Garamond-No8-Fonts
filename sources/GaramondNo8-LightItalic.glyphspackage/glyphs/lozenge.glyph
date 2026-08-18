@@ -1,0 +1,60 @@
+{
+glyphname = lozenge;
+layers = (
+{
+background = {
+guides = (
+{
+angle = 90;
+name = com.lucasfonts.vfblib.maskMetrics;
+pos = (100,0);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(334,693,l),
+(74,333,l),
+(334,-26,l),
+(593,333,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(334,604,l),
+(531,333,l),
+(334,62,l),
+(137,333,l)
+);
+}
+);
+};
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(334,693,l),
+(74,333,l),
+(334,-26,l),
+(593,333,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(334,604,l),
+(531,333,l),
+(334,62,l),
+(137,333,l)
+);
+}
+);
+vertWidth = 973;
+width = 667;
+}
+);
+unicode = 9674;
+}

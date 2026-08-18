@@ -1,0 +1,16 @@
+{
+color = (128,255,149,255);
+glyphname = f_i;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+ref = fi;
+}
+);
+vertWidth = 476;
+width = 593;
+}
+);
+}

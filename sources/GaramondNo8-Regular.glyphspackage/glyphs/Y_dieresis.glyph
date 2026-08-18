@@ -1,0 +1,23 @@
+{
+color = (128,255,149,255);
+glyphname = Ydieresis;
+kernLeft = _Y;
+kernRight = _Y;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (618,0);
+ref = uni0308.case;
+}
+);
+vertWidth = 476;
+width = 719;
+}
+);
+unicode = 376;
+}

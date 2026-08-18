@@ -1,0 +1,25 @@
+{
+glyphname = less;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(797,616,l),
+(199,348,l),
+(199,271,l),
+(797,2,l),
+(797,97,l),
+(321,309,l),
+(797,522,l)
+);
+}
+);
+vertWidth = 896;
+width = 996;
+}
+);
+unicode = 60;
+}

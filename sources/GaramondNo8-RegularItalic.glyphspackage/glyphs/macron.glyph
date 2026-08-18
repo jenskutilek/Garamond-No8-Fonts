@@ -1,0 +1,51 @@
+{
+glyphname = macron;
+layers = (
+{
+background = {
+guides = (
+{
+angle = 90;
+name = com.lucasfonts.vfblib.maskMetrics;
+pos = (480,0);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(198,610,l),
+(439,610,l),
+(453,658,l),
+(212,658,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(188,603,l),
+(445,603,l),
+(462,665,l),
+(206,665,l)
+);
+}
+);
+};
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(188,603,l),
+(445,603,l),
+(462,665,l),
+(206,665,l)
+);
+}
+);
+vertWidth = 945;
+width = 480;
+}
+);
+unicode = 175;
+}

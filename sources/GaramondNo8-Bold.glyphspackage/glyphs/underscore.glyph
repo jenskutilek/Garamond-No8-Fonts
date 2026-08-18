@@ -1,0 +1,22 @@
+{
+glyphname = underscore;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-1,-199,l),
+(-1,-250,l),
+(499,-250,l),
+(499,-199,l)
+);
+}
+);
+vertWidth = 81;
+width = 498;
+}
+);
+unicode = 95;
+}

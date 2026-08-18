@@ -1,0 +1,36 @@
+{
+glyphname = endash;
+kernLeft = _hyphen;
+kernRight = _hyphen;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(35,214,ls),
+(35,199,o),
+(39,194,o),
+(52,194,cs),
+(439,194,ls),
+(452,194,o),
+(456,199,o),
+(456,214,cs),
+(456,257,ls),
+(456,272,o),
+(452,277,o),
+(439,277,cs),
+(52,277,ls),
+(39,277,o),
+(35,272,o),
+(35,257,cs)
+);
+}
+);
+vertWidth = 557;
+width = 498;
+}
+);
+unicode = 8211;
+}

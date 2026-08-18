@@ -1,0 +1,10 @@
+{
+glyphname = space;
+layers = (
+{
+layerId = vfbMaster0;
+width = 276;
+}
+);
+unicode = 32;
+}

@@ -1,0 +1,25 @@
+{
+glyphname = guilsinglright;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(23,58,l),
+(225,226,l),
+(222,241,l),
+(49,410,l),
+(26,395,l),
+(123,234,l),
+(-2,73,l)
+);
+}
+);
+vertWidth = 690;
+width = 258;
+}
+);
+unicode = 8250;
+}

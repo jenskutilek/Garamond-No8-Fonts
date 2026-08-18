@@ -1,0 +1,29 @@
+{
+glyphname = Delta;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(19,0,l),
+(650,0,l),
+(360,685,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(138,127,l),
+(312,477,l),
+(448,127,l)
+);
+}
+);
+vertWidth = 965;
+width = 667;
+}
+);
+unicode = 8710;
+}

@@ -1,0 +1,60 @@
+{
+glyphname = dotaccent;
+layers = (
+{
+background = {
+guides = (
+{
+angle = 90;
+name = com.lucasfonts.vfblib.maskMetrics;
+pos = (480,0);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(255,655,ls),
+(225,655,o),
+(200,630,o),
+(200,601,cs),
+(200,569,o),
+(224,545,o),
+(255,545,cs),
+(286,545,o),
+(310,569,o),
+(310,600,cs),
+(310,630,o),
+(285,655,o),
+(255,655,cs)
+);
+}
+);
+};
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(255,655,ls),
+(225,655,o),
+(200,630,o),
+(200,601,cs),
+(200,569,o),
+(224,545,o),
+(255,545,cs),
+(286,545,o),
+(310,569,o),
+(310,600,cs),
+(310,630,o),
+(285,655,o),
+(255,655,cs)
+);
+}
+);
+vertWidth = 935;
+width = 480;
+}
+);
+unicode = 729;
+}

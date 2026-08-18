@@ -1,0 +1,955 @@
+{
+.appVersion = "3531";
+.formatVersion = 3;
+classes = (
+{
+automatic = 1;
+code = "A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L Lslash M N Ntilde O Oacute Ocircumflex Odieresis Ograve Oslash Otilde OE P Thorn Q R S Scaron T U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron uni0394 uni03A9";
+name = Uppercase;
+}
+);
+customParameters = (
+{
+name = "Write lastChange";
+value = 0;
+}
+);
+date = "2026-08-18 17:03:51 +0000";
+familyName = "Garamond No 8 IA";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature sups;
+feature frac;
+feature ordn;
+feature pnum;
+feature tnum;
+feature case;
+feature ss01;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {
+	lookupflag 0;
+	@Markscomb = [uni0308 uni0307 gravecomb acutecomb uni030B uni0302 uni030C uni0306 uni030A tildecomb uni0304 uni0326 uni0327 uni0328];
+	@MarkscombCase = [uni0308.case uni0307.case gravecomb.case acutecomb.case uni030B.case uni0302.case uni030C.case uni0306.case uni030A.case tildecomb.case uni0304.case uni0326.case uni0327.case uni0328.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	lookupflag 0;
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
+
+lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+";
+tag = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+";
+tag = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub zero.tf by zero;
+sub one.tf by one;
+sub two.tf by two;
+sub three.tf by three;
+sub four.tf by four;
+sub five.tf by five;
+sub six.tf by six;
+sub seven.tf by seven;
+sub eight.tf by eight;
+sub nine.tf by nine;
+";
+tag = pnum;
+},
+{
+automatic = 1;
+code = "sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
+";
+tag = tnum;
+},
+{
+automatic = 1;
+code = "sub uni0308 by uni0308.case;
+sub uni0307 by uni0307.case;
+sub gravecomb by gravecomb.case;
+sub acutecomb by acutecomb.case;
+sub uni030B by uni030B.case;
+sub uni0302 by uni0302.case;
+sub uni030C by uni030C.case;
+sub uni0306 by uni0306.case;
+sub uni030A by uni030A.case;
+sub tildecomb by tildecomb.case;
+sub uni0304 by uni0304.case;
+sub uni0326 by uni0326.case;
+sub uni0327 by uni0327.case;
+sub uni0328 by uni0328.case;
+";
+tag = case;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub f i by f_i;
+sub f l by f_l;
+";
+tag = liga;
+},
+{
+automatic = 1;
+code = "sub a by a.ss01;
+";
+tag = ss01;
+}
+);
+fontMaster = (
+{
+customParameters = (
+{
+name = hheaLineGap;
+value = 10;
+},
+{
+name = hheaAscender;
+value = 960;
+},
+{
+name = hheaDescender;
+value = -280;
+},
+{
+name = typoAscender;
+value = 720;
+},
+{
+name = typoDescender;
+value = -280;
+},
+{
+name = typoLineGap;
+value = 250;
+},
+{
+name = winAscent;
+value = 960;
+},
+{
+name = winDescent;
+value = 280;
+},
+{
+name = underlinePosition;
+value = -225;
+},
+{
+name = underlineThickness;
+value = 51;
+},
+{
+name = strikeoutPosition;
+value = 250;
+},
+{
+name = strikeoutSize;
+value = 50;
+}
+);
+id = vfbMaster0;
+metricValues = (
+{
+pos = 720;
+},
+{
+pos = -280;
+},
+{
+over = 21;
+pos = 421;
+},
+{
+pos = 690;
+},
+{
+over = -20;
+},
+{
+over = 15;
+pos = 661;
+},
+{
+over = 19;
+pos = 689;
+},
+{
+over = 10;
+pos = 767;
+}
+);
+name = Regular;
+}
+);
+instances = (
+{
+instanceInterpolations = {
+vfbMaster0 = 1;
+};
+name = Light;
+weightClass = 300;
+}
+);
+kerningLTR = {
+vfbMaster0 = {
+"@MMK_L__A" = {
+"@MMK_R__b" = -12;
+};
+"@MMK_L__C" = {
+"@MMK_R__O" = -1;
+H = -2;
+};
+"@MMK_L__D" = {
+"@MMK_R__A" = -61;
+"@MMK_R__Y" = -60;
+"@MMK_R__quotebase" = -60;
+J = -29;
+T = -19;
+V = -59;
+W = -51;
+X = -55;
+};
+"@MMK_L__N" = {
+"@MMK_R__A" = -26;
+"@MMK_R__C" = -19;
+"@MMK_R__O" = -17;
+"@MMK_R__a_RIGHT" = -16;
+"@MMK_R__comma" = -6;
+"@MMK_R__e" = -13;
+"@MMK_R__o_RIGHT" = -19;
+"@MMK_R__u" = -27;
+AE = -26;
+G = -18;
+oslash = -16;
+};
+"@MMK_L__O" = {
+"@MMK_R__A" = -62;
+"@MMK_R__Y" = -63;
+"@MMK_R__quotebase" = -50;
+AE = -85;
+T = -21;
+V = -66;
+W = -58;
+X = -62;
+};
+"@MMK_L__S" = {
+"@MMK_R__A" = -25;
+"@MMK_R__Y" = -3;
+AE = -25;
+T = -12;
+V = -6;
+W = -2;
+t = 1;
+};
+"@MMK_L__U" = {
+"@MMK_R__b" = 11;
+};
+"@MMK_L__Y" = {
+"@MMK_R__A" = -64;
+"@MMK_R__C" = -69;
+"@MMK_R__O" = -68;
+"@MMK_R__S" = -16;
+"@MMK_R__a_RIGHT" = -55;
+"@MMK_R__c" = -100;
+"@MMK_R__comma" = -87;
+"@MMK_R__e" = -60;
+"@MMK_R__hyphen" = -70;
+"@MMK_R__i" = 20;
+"@MMK_R__n" = -100;
+"@MMK_R__o_RIGHT" = -80;
+"@MMK_R__quotebase" = -80;
+"@MMK_R__s" = -70;
+"@MMK_R__u" = -80;
+"@MMK_R__y" = -80;
+"@MMK_R__z" = -80;
+AE = -115;
+G = -68;
+OE = -50;
+Oslash = -66;
+T = 16;
+colon = -64;
+d = -100;
+f = -40;
+g = -85;
+guillemotleft = -110;
+guilsinglleft = -109;
+m = -100;
+oslash = -88;
+p = -100;
+q = -100;
+r = -100;
+semicolon = -63;
+t = -60;
+v = -90;
+w = -80;
+};
+"@MMK_L__Z" = {
+"@MMK_R__y" = -63;
+v = -58;
+};
+"@MMK_L__a_LEFT" = {
+"@MMK_R__quoteright" = -26;
+"@MMK_R__y" = -20;
+j = -10;
+v = -19;
+w = -22;
+};
+"@MMK_L__c" = {
+"@MMK_R__h_RIGHT" = -20;
+};
+"@MMK_L__comma" = {
+"@MMK_R__quoteright" = -29;
+};
+"@MMK_L__e" = {
+"@MMK_R__quoteright" = -3;
+"@MMK_R__y" = -3;
+t = 2;
+v = -3;
+w = -5;
+x = -7;
+};
+"@MMK_L__h_LEFT" = {
+"@MMK_R__quoteright" = -30;
+"@MMK_R__y" = -26;
+T = -64;
+p = -17;
+};
+"@MMK_L__hyphen" = {
+"@MMK_R__A" = -8;
+"@MMK_R__Y" = -84;
+AE = -43;
+T = -75;
+V = -56;
+W = -48;
+};
+"@MMK_L__i" = {
+T = -22;
+j = -22;
+};
+"@MMK_L__o_LEFT" = {
+"@MMK_R__quoteright" = -19;
+"@MMK_R__y" = -28;
+T = -105;
+t = -6;
+v = -27;
+w = -30;
+x = -32;
+};
+"@MMK_L__p_LEFT" = {
+"@MMK_R__y" = -24;
+t = -9;
+};
+"@MMK_L__parenleft" = {
+J = 100;
+};
+"@MMK_L__quotebase" = {
+"@MMK_R__A" = 10;
+"@MMK_R__C" = -50;
+"@MMK_R__O" = -50;
+"@MMK_R__U" = -40;
+"@MMK_R__Y" = -90;
+"@MMK_R__Z" = 10;
+AE = 8;
+G = -50;
+J = 20;
+T = -75;
+V = -100;
+W = -90;
+};
+"@MMK_L__quoteleft" = {
+"@MMK_R__A" = -80;
+"@MMK_R__Y" = 10;
+"@MMK_R__comma" = -65;
+AE = -159;
+T = -6;
+V = 7;
+W = 10;
+};
+"@MMK_L__quoteright" = {
+"@MMK_R__A" = -83;
+"@MMK_R__Y" = 5;
+"@MMK_R__comma" = -100;
+AE = -165;
+T = -2;
+V = 2;
+W = 6;
+};
+"@MMK_L__s" = {
+"@MMK_R__quoteright" = -11;
+t = 10;
+};
+"@MMK_L__u" = {
+"@MMK_R__quoteright" = -21;
+};
+"@MMK_L__y" = {
+"@MMK_R__a_RIGHT" = -15;
+"@MMK_R__c" = -29;
+"@MMK_R__comma" = -76;
+"@MMK_R__e" = -26;
+"@MMK_R__h_RIGHT" = -19;
+"@MMK_R__hyphen" = -22;
+"@MMK_R__o_RIGHT" = -31;
+"@MMK_R__s" = -5;
+colon = -1;
+d = -30;
+g = -14;
+oslash = -31;
+semicolon = -4;
+};
+B = {
+"@MMK_R__A" = -25;
+"@MMK_R__O" = -1;
+"@MMK_R__Y" = -37;
+AE = -25;
+OE = -6;
+Oslash = 5;
+V = -40;
+W = -32;
+};
+F = {
+"@MMK_R__A" = -77;
+"@MMK_R__O" = -15;
+"@MMK_R__a_RIGHT" = -12;
+"@MMK_R__comma" = -55;
+"@MMK_R__e" = -27;
+"@MMK_R__hyphen" = 13;
+"@MMK_R__i" = -25;
+"@MMK_R__n" = -30;
+"@MMK_R__o_RIGHT" = -28;
+"@MMK_R__quotebase" = -100;
+"@MMK_R__s" = -20;
+"@MMK_R__u" = -16;
+"@MMK_R__y" = -10;
+"@MMK_R__z" = -30;
+j = -18;
+oslash = -29;
+r = -39;
+v = -20;
+w = -10;
+x = -20;
+};
+G = {
+"@MMK_R__A" = -25;
+"@MMK_R__Y" = -21;
+AE = -25;
+T = -24;
+V = -24;
+W = -16;
+};
+J = {
+"@MMK_R__A" = -33;
+"@MMK_R__quotebase" = -20;
+"@MMK_R__u" = -35;
+AE = -33;
+};
+K = {
+"@MMK_R__C" = -70;
+"@MMK_R__O" = -57;
+"@MMK_R__S" = 13;
+"@MMK_R__a_RIGHT" = 9;
+"@MMK_R__c" = -25;
+"@MMK_R__e" = -14;
+"@MMK_R__hyphen" = -45;
+"@MMK_R__o_RIGHT" = -24;
+"@MMK_R__quoteleft" = -50;
+"@MMK_R__u" = -23;
+"@MMK_R__y" = -79;
+G = -65;
+OE = -66;
+T = -28;
+t = -15;
+v = -100;
+w = -100;
+};
+L = {
+"@MMK_R__A" = 7;
+"@MMK_R__C" = -21;
+"@MMK_R__O" = -12;
+"@MMK_R__S" = 13;
+"@MMK_R__U" = -37;
+"@MMK_R__Y" = -91;
+"@MMK_R__hyphen" = 34;
+"@MMK_R__quoteleft" = -80;
+"@MMK_R__quoteright" = -120;
+"@MMK_R__u" = -18;
+"@MMK_R__y" = -50;
+AE = 7;
+G = -17;
+T = -75;
+V = -107;
+W = -104;
+v = -50;
+w = -50;
+};
+Oslash = {
+"@MMK_R__A" = -55;
+};
+P = {
+"@MMK_R__A" = -91;
+"@MMK_R__a_RIGHT" = -22;
+"@MMK_R__comma" = -95;
+"@MMK_R__e" = -47;
+"@MMK_R__hyphen" = -28;
+"@MMK_R__o_RIGHT" = -49;
+"@MMK_R__quotebase" = -140;
+AE = -101;
+J = -38;
+guillemotleft = -30;
+oslash = -52;
+};
+R = {
+"@MMK_R__C" = -58;
+"@MMK_R__O" = -55;
+"@MMK_R__U" = -68;
+"@MMK_R__Y" = -68;
+"@MMK_R__a_RIGHT" = 10;
+"@MMK_R__e" = -13;
+"@MMK_R__hyphen" = -29;
+"@MMK_R__o_RIGHT" = -22;
+"@MMK_R__u" = -22;
+"@MMK_R__y" = -68;
+G = -57;
+OE = -58;
+T = -53;
+V = -82;
+W = -75;
+};
+T = {
+"@MMK_R__A" = -52;
+"@MMK_R__C" = -36;
+"@MMK_R__O" = -35;
+"@MMK_R__S" = -3;
+"@MMK_R__Y" = 22;
+"@MMK_R__a_RIGHT" = -55;
+"@MMK_R__c" = -92;
+"@MMK_R__comma" = -75;
+"@MMK_R__e" = -62;
+"@MMK_R__hyphen" = -62;
+"@MMK_R__i" = -10;
+"@MMK_R__n" = -70;
+"@MMK_R__o_RIGHT" = -70;
+"@MMK_R__quotebase" = -60;
+"@MMK_R__s" = -63;
+"@MMK_R__u" = -75;
+"@MMK_R__y" = -105;
+"@MMK_R__z" = -60;
+AE = -130;
+G = -35;
+J = 6;
+OE = -34;
+Oslash = -35;
+V = 19;
+W = 22;
+colon = -59;
+d = -90;
+g = -75;
+guillemotleft = -104;
+guilsinglleft = -105;
+j = -12;
+m = -70;
+oslash = -76;
+p = -70;
+q = -90;
+r = -65;
+semicolon = -53;
+v = -108;
+w = -110;
+x = -70;
+};
+Thorn = {
+"@MMK_R__A" = -35;
+"@MMK_R__Y" = -60;
+T = -20;
+V = -50;
+W = -30;
+};
+V = {
+"@MMK_R__A" = -113;
+"@MMK_R__C" = -62;
+"@MMK_R__O" = -55;
+"@MMK_R__S" = -18;
+"@MMK_R__a_RIGHT" = -55;
+"@MMK_R__c" = -75;
+"@MMK_R__comma" = -90;
+"@MMK_R__e" = -55;
+"@MMK_R__hyphen" = -42;
+"@MMK_R__i" = 20;
+"@MMK_R__n" = -60;
+"@MMK_R__o_RIGHT" = -85;
+"@MMK_R__quotebase" = -80;
+"@MMK_R__s" = -70;
+"@MMK_R__u" = -55;
+"@MMK_R__y" = -50;
+"@MMK_R__z" = -50;
+AE = -160;
+G = -60;
+Oslash = -48;
+T = 14;
+colon = -44;
+d = -75;
+g = -80;
+guillemotleft = -90;
+guilsinglleft = -83;
+j = -10;
+m = -60;
+oslash = -80;
+p = -60;
+q = -75;
+r = -82;
+semicolon = -42;
+t = -40;
+v = -60;
+w = -50;
+x = -50;
+};
+W = {
+"@MMK_R__A" = -105;
+"@MMK_R__C" = -54;
+"@MMK_R__O" = -48;
+"@MMK_R__S" = -11;
+"@MMK_R__a_RIGHT" = -40;
+"@MMK_R__c" = -75;
+"@MMK_R__comma" = -80;
+"@MMK_R__e" = -45;
+"@MMK_R__hyphen" = -35;
+"@MMK_R__i" = 35;
+"@MMK_R__n" = -75;
+"@MMK_R__o_RIGHT" = -55;
+"@MMK_R__quotebase" = -80;
+"@MMK_R__s" = -50;
+"@MMK_R__u" = -45;
+"@MMK_R__y" = -42;
+"@MMK_R__z" = -40;
+AE = -150;
+G = -48;
+Oslash = -41;
+T = 17;
+colon = -36;
+d = -75;
+g = -73;
+guillemotleft = -80;
+guilsinglleft = -80;
+m = -75;
+oslash = -72;
+p = -65;
+q = -75;
+r = -75;
+semicolon = -35;
+t = -50;
+v = -60;
+w = -50;
+x = -50;
+};
+X = {
+"@MMK_R__C" = -73;
+"@MMK_R__O" = -61;
+"@MMK_R__a_RIGHT" = 1;
+"@MMK_R__c" = -20;
+"@MMK_R__e" = -20;
+"@MMK_R__hyphen" = -39;
+"@MMK_R__o_RIGHT" = -28;
+"@MMK_R__u" = -27;
+"@MMK_R__y" = -83;
+d = -20;
+q = -20;
+t = -10;
+v = -50;
+w = -40;
+};
+ae = {
+"@MMK_R__y" = 1;
+v = 1;
+};
+b = {
+"@MMK_R__y" = -22;
+v = -21;
+w = -24;
+};
+backslash = {
+backslash = -130;
+};
+f = {
+"@MMK_R__a_RIGHT" = -13;
+"@MMK_R__e" = -24;
+"@MMK_R__h_RIGHT" = 20;
+"@MMK_R__i" = 5;
+"@MMK_R__o_RIGHT" = -15;
+"@MMK_R__quoteright" = 11;
+"@MMK_R__s" = -3;
+f = 17;
+j = 10;
+oslash = -17;
+t = 23;
+};
+g = {
+"@MMK_R__a_RIGHT" = 6;
+"@MMK_R__e" = -6;
+"@MMK_R__o_RIGHT" = -10;
+r = 3;
+};
+guillemotright = {
+"@MMK_R__A" = -41;
+"@MMK_R__Y" = -121;
+AE = -75;
+T = -110;
+V = -95;
+W = -86;
+};
+guilsinglright = {
+"@MMK_R__A" = -41;
+"@MMK_R__Y" = -122;
+AE = -75;
+T = -110;
+V = -95;
+W = -87;
+};
+k = {
+"@MMK_R__a_RIGHT" = 3;
+"@MMK_R__comma" = -4;
+"@MMK_R__e" = -20;
+"@MMK_R__hyphen" = -49;
+"@MMK_R__o_RIGHT" = -15;
+"@MMK_R__s" = 11;
+q = -15;
+t = -10;
+v = -20;
+w = -25;
+};
+l = {
+"@MMK_R__y" = -16;
+v = -16;
+};
+m = {
+"@MMK_R__y" = -25;
+p = -14;
+v = -24;
+w = -27;
+};
+q = {
+"@MMK_R__c" = -2;
+"@MMK_R__u" = -4;
+};
+r = {
+"@MMK_R__a_RIGHT" = -7;
+"@MMK_R__c" = -15;
+"@MMK_R__comma" = -53;
+"@MMK_R__e" = -12;
+"@MMK_R__h_RIGHT" = -18;
+"@MMK_R__hyphen" = -41;
+"@MMK_R__i" = 7;
+"@MMK_R__n" = 10;
+"@MMK_R__o_RIGHT" = -16;
+"@MMK_R__quoteright" = -3;
+"@MMK_R__s" = 4;
+"@MMK_R__u" = 26;
+"@MMK_R__y" = 29;
+"@MMK_R__z" = 5;
+colon = 1;
+d = -16;
+f = 21;
+g = -1;
+j = 13;
+m = 9;
+oslash = -17;
+p = 18;
+q = -23;
+r = 4;
+semicolon = -1;
+t = 27;
+v = 29;
+w = 27;
+x = 25;
+};
+slash = {
+slash = -130;
+w = -50;
+};
+t = {
+"@MMK_R__S" = 2;
+"@MMK_R__a_RIGHT" = 3;
+"@MMK_R__e" = -7;
+"@MMK_R__h_RIGHT" = -7;
+"@MMK_R__o_RIGHT" = -14;
+"@MMK_R__quoteright" = -20;
+r = -15;
+semicolon = 6;
+};
+v = {
+"@MMK_R__a_RIGHT" = -15;
+"@MMK_R__c" = -29;
+"@MMK_R__comma" = -62;
+"@MMK_R__e" = -26;
+"@MMK_R__h_RIGHT" = -19;
+"@MMK_R__hyphen" = -10;
+"@MMK_R__o_RIGHT" = -31;
+"@MMK_R__s" = -5;
+colon = -1;
+d = -15;
+g = -14;
+oslash = -31;
+q = -20;
+semicolon = -3;
+};
+w = {
+"@MMK_R__a_RIGHT" = -16;
+"@MMK_R__c" = -31;
+"@MMK_R__comma" = -68;
+"@MMK_R__e" = -28;
+"@MMK_R__h_RIGHT" = -21;
+"@MMK_R__hyphen" = -16;
+"@MMK_R__o_RIGHT" = -32;
+"@MMK_R__s" = -7;
+colon = -3;
+d = -20;
+g = -16;
+oslash = -33;
+q = -20;
+semicolon = -6;
+};
+x = {
+"@MMK_R__a_RIGHT" = -1;
+"@MMK_R__c" = -21;
+"@MMK_R__e" = -21;
+"@MMK_R__o_RIGHT" = -31;
+q = -28;
+};
+};
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = descender;
+},
+{
+type = "x-height";
+},
+{
+type = "cap height";
+},
+{
+type = baseline;
+},
+{
+name = m0;
+},
+{
+name = m1;
+},
+{
+name = m2;
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2000 by (URW)++ Design & Development";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "URW++ Design and Development";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "Aladdin Free Public License";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://spdx.org/licenses/Aladdin.html";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Jens Kutilek";
+}
+);
+},
+{
+key = vendorID;
+value = JENS;
+}
+);
+settings = {
+disablesAutomaticAlignment = 1;
+disablesNiceNames = 1;
+};
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 5;
+}

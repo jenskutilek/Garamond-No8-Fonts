@@ -1,0 +1,33 @@
+{
+glyphname = period;
+kernLeft = _comma;
+kernRight = _comma;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(138,147,ls),
+(93,147,o),
+(56,110,o),
+(56,65,cs),
+(56,19,o),
+(93,-18,o),
+(138,-18,cs),
+(184,-18,o),
+(221,18,o),
+(221,65,cs),
+(221,111,o),
+(184,147,o),
+(138,147,cs)
+);
+}
+);
+vertWidth = 427;
+width = 276;
+}
+);
+unicode = 46;
+}

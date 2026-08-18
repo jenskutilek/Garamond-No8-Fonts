@@ -1,0 +1,23 @@
+{
+color = (128,255,149,255);
+glyphname = Ograve;
+kernLeft = _O;
+kernRight = _O;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (847,0);
+ref = gravecomb.case;
+}
+);
+vertWidth = 476;
+width = 848;
+}
+);
+unicode = 210;
+}

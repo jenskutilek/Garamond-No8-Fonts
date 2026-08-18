@@ -1,0 +1,61 @@
+{
+color = (255,213,128,255);
+glyphname = uni0304.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (-147,690);
+},
+{
+name = top;
+pos = (-154,874);
+}
+);
+background = {
+guides = (
+{
+angle = 90;
+name = com.lucasfonts.vfblib.maskMetrics;
+pos = (1,0);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(-281,826,l),
+(-40,826,l),
+(-26,874,l),
+(-267,874,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-291,819,l),
+(-34,819,l),
+(-17,881,l),
+(-273,881,l)
+);
+}
+);
+};
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-291,819,l),
+(-34,819,l),
+(-17,881,l),
+(-273,881,l)
+);
+}
+);
+vertWidth = 1161;
+width = 1;
+}
+);
+}

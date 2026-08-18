@@ -1,0 +1,66 @@
+{
+glyphname = greaterequal;
+layers = (
+{
+background = {
+guides = (
+{
+angle = 90;
+name = com.lucasfonts.vfblib.maskMetrics;
+pos = (-6141,0);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(205,597,l),
+(205,529,l),
+(732,334,l),
+(205,187,l),
+(205,118,l),
+(826,302,l),
+(826,366,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(826,67,l),
+(205,67,l),
+(205,0,l),
+(826,0,l)
+);
+}
+);
+};
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(205,597,l),
+(205,529,l),
+(732,334,l),
+(205,187,l),
+(205,118,l),
+(826,302,l),
+(826,366,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(826,67,l),
+(205,67,l),
+(205,0,l),
+(826,0,l)
+);
+}
+);
+vertWidth = 877;
+width = 1000;
+}
+);
+unicode = 8805;
+}

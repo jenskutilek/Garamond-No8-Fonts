@@ -1,0 +1,23 @@
+{
+color = (128,255,149,255);
+glyphname = igrave;
+kernLeft = _i;
+kernRight = _i;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+ref = dotlessi;
+},
+{
+pos = (404,0);
+ref = gravecomb;
+}
+);
+vertWidth = 476;
+width = 276;
+}
+);
+unicode = 236;
+}

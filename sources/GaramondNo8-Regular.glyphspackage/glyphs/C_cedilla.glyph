@@ -1,0 +1,29 @@
+{
+color = (128,255,234,255);
+glyphname = Ccedilla;
+kernLeft = _C;
+kernRight = _C;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (439,689);
+}
+);
+layerId = vfbMaster0;
+shapes = (
+{
+ref = C;
+},
+{
+pos = (655,0);
+ref = uni0327.case;
+}
+);
+vertWidth = 476;
+width = 738;
+}
+);
+unicode = 199;
+}

@@ -1,0 +1,32 @@
+{
+color = (255,213,128,255);
+glyphname = uni0304.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (-251,689);
+},
+{
+name = top;
+pos = (-251,879);
+}
+);
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-384,879,l),
+(-384,814,l),
+(-117,814,l),
+(-117,879,l)
+);
+}
+);
+vertWidth = 1159;
+width = 1;
+}
+);
+}

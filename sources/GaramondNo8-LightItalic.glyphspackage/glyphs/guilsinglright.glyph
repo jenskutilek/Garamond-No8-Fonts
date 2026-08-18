@@ -1,0 +1,46 @@
+{
+glyphname = guilsinglright;
+layers = (
+{
+background = {
+guides = (
+{
+angle = 90;
+name = com.lucasfonts.vfblib.maskMetrics;
+pos = (9985,0);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(59,74,l),
+(244,235,l),
+(91,401,l),
+(78,389,l),
+(168,238,l),
+(44,87,l)
+);
+}
+);
+};
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(59,74,l),
+(244,235,l),
+(91,401,l),
+(78,389,l),
+(168,238,l),
+(44,87,l)
+);
+}
+);
+vertWidth = 681;
+width = 295;
+}
+);
+unicode = 8250;
+}

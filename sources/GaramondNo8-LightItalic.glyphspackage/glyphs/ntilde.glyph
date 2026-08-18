@@ -1,0 +1,21 @@
+{
+color = (128,255,149,255);
+glyphname = ntilde;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+ref = n;
+},
+{
+pos = (507,1);
+ref = tildecomb;
+}
+);
+vertWidth = 477;
+width = 553;
+}
+);
+unicode = 241;
+}

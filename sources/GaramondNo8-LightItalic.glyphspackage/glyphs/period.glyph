@@ -1,0 +1,60 @@
+{
+glyphname = period;
+layers = (
+{
+background = {
+guides = (
+{
+angle = 90;
+name = com.lucasfonts.vfblib.maskMetrics;
+pos = (-4096,0);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(79,113,ls),
+(44,113,o),
+(17,84,o),
+(17,47,cs),
+(17,9,o),
+(38,-15,o),
+(71,-15,cs),
+(106,-15,o),
+(132,15,o),
+(132,53,cs),
+(132,89,o),
+(111,113,o),
+(79,113,cs)
+);
+}
+);
+};
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(79,113,ls),
+(44,113,o),
+(17,84,o),
+(17,47,cs),
+(17,9,o),
+(38,-15,o),
+(71,-15,cs),
+(106,-15,o),
+(132,15,o),
+(132,53,cs),
+(132,89,o),
+(111,113,o),
+(79,113,cs)
+);
+}
+);
+vertWidth = 393;
+width = 240;
+}
+);
+unicode = 46;
+}

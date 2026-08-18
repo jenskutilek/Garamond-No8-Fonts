@@ -1,0 +1,21 @@
+{
+color = (128,255,149,255);
+glyphname = agrave;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (461,-1);
+ref = gravecomb;
+}
+);
+vertWidth = 476;
+width = 461;
+}
+);
+unicode = 224;
+}

@@ -1,0 +1,74 @@
+{
+color = (128,255,149,255);
+glyphname = grave;
+layers = (
+{
+background = {
+guides = (
+{
+angle = 90;
+name = com.lucasfonts.vfblib.maskMetrics;
+pos = (479,0);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(268,517,ls),
+(273,510,o),
+(277,506,o),
+(282,506,cs),
+(283,506,o),
+(286,506,o),
+(289,508,cs),
+(300,514,l),
+(303,517,o),
+(306,520,o),
+(306,525,cs),
+(306,528,o),
+(305,533,o),
+(302,539,cs),
+(281,591,o),
+(256,647,o),
+(234,699,cs),
+(208,761,o),
+(192,784,o),
+(167,784,cs),
+(142,784,o),
+(121,764,o),
+(121,739,cs),
+(121,717,o),
+(129,703,o),
+(161,660,cs)
+);
+}
+);
+};
+hints = (
+{
+horizontal = 1;
+place = (506,21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (784,-20);
+target = down;
+type = TopGhost;
+}
+);
+layerId = vfbMaster0;
+shapes = (
+{
+pos = (506,0);
+ref = gravecomb;
+}
+);
+vertWidth = 476;
+width = 480;
+}
+);
+unicode = 96;
+}

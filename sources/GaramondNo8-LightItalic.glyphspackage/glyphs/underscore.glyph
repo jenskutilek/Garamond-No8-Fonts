@@ -1,0 +1,42 @@
+{
+glyphname = underscore;
+layers = (
+{
+background = {
+guides = (
+{
+angle = 90;
+name = com.lucasfonts.vfblib.maskMetrics;
+pos = (-3583,0);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(-1,-199,l),
+(-1,-250,l),
+(499,-250,l),
+(499,-199,l)
+);
+}
+);
+};
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-1,-199,l),
+(-1,-250,l),
+(499,-250,l),
+(499,-199,l)
+);
+}
+);
+vertWidth = 81;
+width = 498;
+}
+);
+unicode = 95;
+}

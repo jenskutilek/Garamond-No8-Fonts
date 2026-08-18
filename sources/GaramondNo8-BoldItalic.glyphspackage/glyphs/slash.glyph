@@ -1,0 +1,22 @@
+{
+glyphname = slash;
+layers = (
+{
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(531,695,l),
+(7,-49,l),
+(79,-49,l),
+(604,695,l)
+);
+}
+);
+vertWidth = 975;
+width = 498;
+}
+);
+unicode = 47;
+}

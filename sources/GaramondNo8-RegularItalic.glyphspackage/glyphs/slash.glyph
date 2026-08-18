@@ -1,0 +1,51 @@
+{
+glyphname = slash;
+layers = (
+{
+background = {
+guides = (
+{
+angle = 90;
+name = com.lucasfonts.vfblib.maskMetrics;
+pos = (498,0);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(564,723,l),
+(-8,-60,l),
+(47,-60,l),
+(625,723,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(560,730,l),
+(-22,-67,l),
+(51,-67,l),
+(639,730,l)
+);
+}
+);
+};
+layerId = vfbMaster0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(560,730,l),
+(-22,-67,l),
+(51,-67,l),
+(639,730,l)
+);
+}
+);
+vertWidth = 1010;
+width = 498;
+}
+);
+unicode = 47;
+}
